@@ -1,0 +1,219 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "willow",
+  "name": "Childcare Compliance NZ",
+  "colors": {
+    "primary": "#2D4059",
+    "light": "#FFD460",
+    "dark": "#2D4059",
+    "anchors": {
+      "from": "#2D4059",
+      "to": "#FFD460"
+    }
+  },
+  "logo": {
+    "light": "/logo/lockup-horizontal-light.png",
+    "dark": "/logo/lockup-horizontal-dark.png"
+  },
+  "favicon": "/logo/favicon.png",
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:support@childcarecompliance.co.nz"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Go to App",
+    "url": "https://app.childcarecompliance.co.nz"
+  },
+  "navigation": [
+    {
+      "tab": "Getting Started",
+      "groups": [
+        {
+          "group": "Welcome",
+          "pages": [
+            "getting-started/introduction",
+            "getting-started/what-is-ccnz",
+            "getting-started/how-it-works"
+          ]
+        },
+        {
+          "group": "Setting Up Your Centre",
+          "pages": [
+            "getting-started/centre-setup-wizard",
+            "getting-started/adding-your-first-centre",
+            "getting-started/inviting-staff",
+            "getting-started/your-dashboard"
+          ]
+        }
+      ]
+    },
+    {
+      "tab": "Day to Day",
+      "groups": [
+        {
+          "group": "Incidents",
+          "pages": [
+            "day-to-day/incidents/overview",
+            "day-to-day/incidents/recording-an-incident",
+            "day-to-day/incidents/notifiable-events"
+          ]
+        },
+        {
+          "group": "Hazards & Premises",
+          "pages": [
+            "day-to-day/hazards/overview",
+            "day-to-day/hazards/logging-a-hazard",
+            "day-to-day/hazards/premises-checklist"
+          ]
+        },
+        {
+          "group": "Emergency & Drills",
+          "pages": [
+            "day-to-day/emergency/overview",
+            "day-to-day/emergency/recording-a-drill",
+            "day-to-day/emergency/emergency-plan"
+          ]
+        },
+        {
+          "group": "Fire Evacuation",
+          "pages": [
+            "day-to-day/fire-evacuation/overview",
+            "day-to-day/fire-evacuation/running-an-evacuation",
+            "day-to-day/fire-evacuation/evacuation-scheme"
+          ]
+        },
+        {
+          "group": "Maintenance Log",
+          "pages": [
+            "day-to-day/maintenance/overview",
+            "day-to-day/maintenance/logging-an-item"
+          ]
+        }
+      ]
+    },
+    {
+      "tab": "Staff & HR",
+      "groups": [
+        {
+          "group": "Managing Staff",
+          "pages": [
+            "staff/overview",
+            "staff/adding-a-staff-member",
+            "staff/staff-profile",
+            "staff/employment-status",
+            "staff/address-history"
+          ]
+        },
+        {
+          "group": "Compliance",
+          "pages": [
+            "staff/compliance/police-vetting",
+            "staff/compliance/teacher-registration",
+            "staff/compliance/visa-work-rights",
+            "staff/compliance/exemptions"
+          ]
+        },
+        {
+          "group": "Qualifications",
+          "pages": [
+            "staff/qualifications/first-aid",
+            "staff/qualifications/other-qualifications"
+          ]
+        },
+        {
+          "group": "Pay Parity",
+          "pages": [
+            "staff/pay-parity/overview",
+            "staff/pay-parity/recording-a-review",
+            "staff/pay-parity/qualification-groups",
+            "staff/pay-parity/rs7-attestation",
+            "staff/pay-parity/exclusions"
+          ]
+        },
+        {
+          "group": "Recruitment",
+          "pages": [
+            "staff/recruitment/candidates",
+            "staff/recruitment/application-form",
+            "staff/recruitment/interviews",
+            "staff/recruitment/converting-to-staff"
+          ]
+        }
+      ]
+    },
+    {
+      "tab": "Compliance",
+      "groups": [
+        {
+          "group": "Compliance Register",
+          "pages": [
+            "compliance/register/overview",
+            "compliance/register/licensing-criteria",
+            "compliance/register/evidence-linking"
+          ]
+        },
+        {
+          "group": "ERO Audit Prep",
+          "pages": [
+            "compliance/ero/overview",
+            "compliance/ero/visit-mode",
+            "compliance/ero/evidence-pack"
+          ]
+        },
+        {
+          "group": "Evidence Vault",
+          "pages": [
+            "compliance/evidence-vault/overview",
+            "compliance/evidence-vault/uploading-evidence"
+          ]
+        }
+      ]
+    },
+    {
+      "tab": "Policies",
+      "groups": [
+        {
+          "group": "Policy Library",
+          "pages": [
+            "policies/overview",
+            "policies/adopting-a-template",
+            "policies/creating-a-policy",
+            "policies/acknowledging-policies",
+            "policies/review-cycles"
+          ]
+        }
+      ]
+    },
+    {
+      "tab": "Account & Settings",
+      "groups": [
+        {
+          "group": "Business Settings",
+          "pages": [
+            "settings/overview",
+            "settings/business-details",
+            "settings/managing-centres",
+            "settings/multi-site"
+          ]
+        },
+        {
+          "group": "Users & Permissions",
+          "pages": [
+            "settings/permissions/roles",
+            "settings/permissions/inviting-users",
+            "settings/permissions/revoking-access"
+          ]
+        }
+      ]
+    }
+  ],
+  "footerSocials": {
+    "website": "https://childcarecompliance.co.nz"
+  },
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": false
+  }
+}
