@@ -7,6 +7,9 @@
     "light": "#FFD460",
     "dark": "#2D4059"
   },
+  "fonts": {
+    "family": "Plus Jakarta Sans"
+  },
   "logo": {
     "light": "/logo/lockup-horizontal-light.png",
     "dark": "/logo/lockup-horizontal-dark.png"
@@ -40,6 +43,7 @@
     "groups": [
       {
         "group": "Getting Started",
+        "icon": "rocket",
         "pages": [
           "getting-started/introduction",
           "getting-started/what-is-ccnz",
@@ -48,6 +52,7 @@
       },
       {
         "group": "Setting Up Your Centre",
+        "icon": "building",
         "pages": [
           "getting-started/centre-setup-wizard",
           "getting-started/adding-your-first-centre",
@@ -57,6 +62,7 @@
       },
       {
         "group": "Incidents",
+        "icon": "triangle-exclamation",
         "pages": [
           "day-to-day/incidents/overview",
           "day-to-day/incidents/recording-an-incident",
@@ -65,6 +71,7 @@
       },
       {
         "group": "Hazards & Premises",
+        "icon": "hard-hat",
         "pages": [
           "day-to-day/hazards/overview",
           "day-to-day/hazards/logging-a-hazard",
@@ -73,6 +80,7 @@
       },
       {
         "group": "Emergency & Drills",
+        "icon": "siren",
         "pages": [
           "day-to-day/emergency/overview",
           "day-to-day/emergency/recording-a-drill",
@@ -81,6 +89,7 @@
       },
       {
         "group": "Fire Evacuation",
+        "icon": "fire",
         "pages": [
           "day-to-day/fire-evacuation/overview",
           "day-to-day/fire-evacuation/running-an-evacuation",
@@ -89,6 +98,7 @@
       },
       {
         "group": "Maintenance Log",
+        "icon": "wrench",
         "pages": [
           "day-to-day/maintenance/overview",
           "day-to-day/maintenance/logging-an-item"
@@ -96,6 +106,7 @@
       },
       {
         "group": "Managing Staff",
+        "icon": "users",
         "pages": [
           "staff/overview",
           "staff/adding-a-staff-member",
@@ -106,6 +117,7 @@
       },
       {
         "group": "Staff Compliance",
+        "icon": "shield-check",
         "pages": [
           "staff/compliance/police-vetting",
           "staff/compliance/teacher-registration",
@@ -115,6 +127,7 @@
       },
       {
         "group": "Qualifications",
+        "icon": "graduation-cap",
         "pages": [
           "staff/qualifications/first-aid",
           "staff/qualifications/other-qualifications"
@@ -122,6 +135,7 @@
       },
       {
         "group": "Pay Parity",
+        "icon": "scale-balanced",
         "pages": [
           "staff/pay-parity/overview",
           "staff/pay-parity/recording-a-review",
@@ -132,6 +146,7 @@
       },
       {
         "group": "Recruitment",
+        "icon": "user-plus",
         "pages": [
           "staff/recruitment/candidates",
           "staff/recruitment/application-form",
@@ -141,6 +156,7 @@
       },
       {
         "group": "Compliance Register",
+        "icon": "clipboard-list",
         "pages": [
           "compliance/register/overview",
           "compliance/register/licensing-criteria",
@@ -149,6 +165,7 @@
       },
       {
         "group": "ERO Audit Prep",
+        "icon": "magnifying-glass-chart",
         "pages": [
           "compliance/ero/overview",
           "compliance/ero/visit-mode",
@@ -157,6 +174,7 @@
       },
       {
         "group": "Evidence Vault",
+        "icon": "vault",
         "pages": [
           "compliance/evidence-vault/overview",
           "compliance/evidence-vault/uploading-evidence"
@@ -164,6 +182,7 @@
       },
       {
         "group": "Policy Library",
+        "icon": "book-open",
         "pages": [
           "policies/overview",
           "policies/adopting-a-template",
@@ -174,6 +193,7 @@
       },
       {
         "group": "Business Settings",
+        "icon": "gear",
         "pages": [
           "settings/overview",
           "settings/business-details",
@@ -183,6 +203,7 @@
       },
       {
         "group": "Users & Permissions",
+        "icon": "lock",
         "pages": [
           "settings/permissions/roles",
           "settings/permissions/inviting-users",
