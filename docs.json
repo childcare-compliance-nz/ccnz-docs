@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "willow",
+  "theme": "aspen",
   "name": "Childcare Compliance NZ",
   "colors": {
     "primary": "#2D4059",
@@ -8,8 +8,8 @@
     "dark": "#2D4059"
   },
   "logo": {
-    "light": "/logo/lockup-horizontal-dark.png",
-    "dark": "/logo/lockup-horizontal-light.png"
+    "light": "/logo/lockup-horizontal-light.png",
+    "dark": "/logo/lockup-horizontal-dark.png"
   },
   "favicon": "/logo/favicon.png",
   "redirects": [
