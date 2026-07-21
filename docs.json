@@ -7,10 +7,6 @@
     "light": "#FFD460",
     "dark": "#2D4059"
   },
-  "appearance": {
-    "default": "dark",
-    "strict": true
-  },
   "logo": {
     "light": "/logo/lockup-horizontal-light.png",
     "dark": "/logo/lockup-horizontal-dark.png"
