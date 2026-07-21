@@ -37,17 +37,9 @@
     }
   },
   "navigation": {
-    "tabs": [
-      { "tab": "Getting Started", "href": "getting-started/introduction" },
-      { "tab": "Day to Day", "href": "day-to-day/incidents/overview" },
-      { "tab": "Staff & HR", "href": "staff/overview" },
-      { "tab": "Compliance", "href": "compliance/register/overview" },
-      { "tab": "Policies", "href": "policies/overview" },
-      { "tab": "Settings", "href": "settings/overview" }
-    ],
     "groups": [
       {
-        "group": "Welcome",
+        "group": "Getting Started",
         "pages": [
           "getting-started/introduction",
           "getting-started/what-is-ccnz",
