@@ -8,8 +8,8 @@
     "dark": "#2D4059"
   },
   "logo": {
-    "light": "/logo/lockup-horizontal-light.png",
-    "dark": "/logo/lockup-horizontal-dark.png"
+    "light": "/logo/lockup-horizontal-dark.png",
+    "dark": "/logo/lockup-horizontal-light.png"
   },
   "favicon": "/logo/favicon.png",
   "redirects": [
