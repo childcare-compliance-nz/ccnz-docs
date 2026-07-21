@@ -12,6 +12,12 @@
     "dark": "/logo/lockup-horizontal-dark.png"
   },
   "favicon": "/logo/favicon.png",
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/getting-started/introduction"
+    }
+  ],
   "navbar": {
     "links": [
       {
