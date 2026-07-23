@@ -46,10 +46,6 @@
         "icon": "rocket",
         "groups": [
           {
-        "tab": "Getting Started",
-        "icon": "rocket",
-        "groups": [
-          {
             "group": "Getting Started",
             "pages": [
               "getting-started/introduction",
