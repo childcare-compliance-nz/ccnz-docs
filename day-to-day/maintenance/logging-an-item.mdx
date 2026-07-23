@@ -1,6 +1,49 @@
 ---
-title: "Coming Soon"
-description: "This page is coming soon."
+title: "Logging an Item"
+description: "How to log a maintenance request, add detail, and set it up for scheduling."
 ---
 
-This page is coming soon.
+Maintenance requests start simple — just enough to get the job into the system. You can add further detail as needed, or expand the form up front if you're logging a complex job with a contractor and cost involved.
+
+## Raising a request
+
+From the Maintenance Log, click **New Request**. Fill in the basics:
+
+- **Title** — a short description of the job (e.g. "Replace broken gate latch")
+- **Description** — more detail about what needs doing and any relevant context
+- **Premises location** — where the job is (drawn from your centre's premises locations)
+- **Priority** — Low (green), Medium (amber), or High (red)
+- **Type** — Reactive (one-off fix) or Scheduled (recurring task)
+
+Click **Save** to log the request, or expand the optional fields if you need to add more detail now.
+
+## Optional detail fields
+
+For more complex jobs, you can also record:
+
+- **Estimated cost**
+- **Contractor / supplier** — free-text field for the name or company doing the work
+- **Notes** — any additional context, access requirements, or instructions
+
+These fields can be filled in when creating the request or added later as the job progresses.
+
+## Scheduled requests
+
+If the request type is **Scheduled**, you'll also set:
+
+- **Recurrence** — how often the job needs to happen (e.g. every month, every 3 months, every 6 months)
+- **Next due date** — when it's next due
+
+When a scheduled request is marked as Completed, the next occurrence is automatically generated with an updated due date. This means recurring tasks stay in the log without any manual follow-up.
+
+Overdue scheduled requests are flagged on the dashboard so they stay visible until they're done.
+
+## Raising from a hazard or incident
+
+If you're in the Hazard Register or Incident Hub and a fix is needed, you can raise a maintenance request directly from that record. The request form pre-fills the title, description seed, and premises location from the source record. Both records are linked — the hazard or incident shows the maintenance request it raised, and the maintenance request references its source.
+
+## After logging
+
+The request appears in the Maintenance Log with its priority badge and Open status. From here, a Maintenance Manager can pick it up, assign it, move it through the workflow, and mark it as Verified when the fix is confirmed.
+
+If the request was raised from a hazard or incident, that record will show a prompt to resolve once the request reaches Verified — a compliance user or admin confirms the resolution.
