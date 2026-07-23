@@ -1,6 +1,87 @@
 ---
-title: "Coming Soon"
-description: "This page is coming soon."
+title: "Hazards & Premises"
+description: "How to manage your hazard register, premises locations, and daily hazard checks."
 ---
 
-This page is coming soon.
+The Hazard & Premises module gives your centre a living record of known risks and a structured process for identifying new ones through daily checks. It connects directly to the Incident and Maintenance modules — a hazard can raise an incident, and a hazard or incident can raise a maintenance request.
+
+## Two core concepts
+
+The module is built around two related ideas:
+
+**The standing hazard register** — a list of known, ongoing hazards at your centre. Each hazard has a risk rating, control measures recorded against it, and a residual risk rating after controls are applied. The register is managed by compliance users and stays current as hazards are resolved or new ones are identified.
+
+**Daily hazard checks** — a configurable checklist your team walks through each day. Any staff member with module access can complete a daily check. Failed items can be promoted directly into the standing hazard register.
+
+## Premises locations
+
+Before setting up hazards or daily check templates, you can define the premises locations at your centre — rooms, outdoor areas, facilities, or any other named spaces. Locations are used as a reference point when logging hazards and building daily check templates, so records are tied to a specific part of the centre.
+
+Premises locations are managed by compliance users from the Premises section of the module.
+
+## The hazard register
+
+The hazard register lists all known hazards at your centre with colour-coded risk badges so the overall picture is clear at a glance.
+
+Each hazard record captures:
+
+- **Title and description** — what the hazard is and where it exists
+- **Premises location** — which part of the centre it relates to
+- **Initial risk rating** — Red, Amber, or Green before any controls are applied
+- **Control measures** — actions taken to eliminate, minimise, or isolate the hazard
+- **Residual risk rating** — the remaining risk level after controls are in place
+- **Owner** — the staff member responsible for managing this hazard
+- **Review due date** — when the hazard should next be reviewed
+- **Status** — Active, Under Review, or Resolved
+
+You can filter the register by risk rating, status, and premises location.
+
+### Risk ratings
+
+| Badge | Meaning |
+|-------|---------|
+| 🔴 Red | High risk — requires immediate attention and active management |
+| 🟡 Amber | Moderate risk — controls in place but monitoring required |
+| 🟢 Green | Low risk — adequately controlled |
+
+### Control measures
+
+Controls are recorded using the hierarchy of control:
+
+- **Eliminate** — remove the hazard entirely
+- **Minimise** — reduce the likelihood or impact
+- **Isolate** — separate the hazard from people
+
+The residual RAG reflects the risk that remains after your chosen controls are applied.
+
+## Raising an incident from a hazard
+
+If a hazard results in an incident, you can raise an incident record directly from the hazard detail view. This pre-fills relevant details from the hazard and creates a two-way link — the hazard record shows the incident it triggered, and the incident record references its source hazard.
+
+## Daily hazard checks
+
+Daily checks give your team a structured way to identify hazards during routine walkthroughs.
+
+### Setting up a template
+
+Compliance users create and manage the daily check template for each centre. A template is a list of items — each with a label and optionally tied to a premises location. You can add, reorder, and activate or deactivate items as your centre's needs change.
+
+### Completing a daily check
+
+Any staff member with module access can complete a daily check. Select the active template, work through each item, and mark it as **Pass** or **Fail** with optional notes. Add any overall notes, then submit — this creates a dated record of the check.
+
+### Promoting a failed item to a hazard
+
+If a daily check item fails, you can promote it directly into the standing hazard register. The hazard is pre-filled from the check item details, and the link between the check finding and the resulting hazard is recorded.
+
+### Check history
+
+Past daily check records are listed with the date, who completed the check, and a pass/fail summary. This history is available for compliance review and ERO preparation.
+
+## Dashboard
+
+The dashboard shows a summary card for the Hazard & Premises module, including a count of open hazards by risk rating and an alert if no daily check has been recorded today.
+
+<Note>
+  Hazard and Premises management requires compliance user access. Any staff member with module access can complete a daily hazard check.
+</Note>
