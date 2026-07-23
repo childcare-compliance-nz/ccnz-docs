@@ -46,16 +46,25 @@
         "icon": "rocket",
         "groups": [
           {
+        "tab": "Getting Started",
+        "icon": "rocket",
+        "groups": [
+          {
             "group": "Getting Started",
             "pages": [
               "getting-started/introduction",
               "getting-started/what-is-ccnz",
               "getting-started/how-it-works"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "Business",
+        "icon": "building",
+        "groups": [
           {
             "group": "Business",
-            "icon": "building",
             "pages": [
               "business/dashboard",
               "business/multi-site-view",
