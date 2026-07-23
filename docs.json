@@ -63,4 +63,211 @@
       },
       {
         "anchor": "Human Resources",
-        "icon":
+        "icon": "users",
+        "groups": ["Vacancies", "Candidates", "My Schedule", "Managing Staff", "Staff Compliance", "Qualifications", "Pay Parity", "Interview & Induction"]
+      },
+      {
+        "anchor": "Business Settings",
+        "icon": "gear",
+        "groups": ["Settings", "Users & Permissions"]
+      }
+    ],
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "getting-started/introduction",
+          "getting-started/what-is-ccnz",
+          "getting-started/how-it-works"
+        ]
+      },
+      {
+        "group": "Business",
+        "pages": [
+          "business/dashboard",
+          "business/multi-site-view",
+          "business/your-centres",
+          "business/business-settings"
+        ]
+      },
+      {
+        "group": "Incidents",
+        "icon": "triangle-exclamation",
+        "pages": [
+          "day-to-day/incidents/overview",
+          "day-to-day/incidents/recording-an-incident",
+          "day-to-day/incidents/notifiable-events"
+        ]
+      },
+      {
+        "group": "Hazards & Premises",
+        "icon": "hard-hat",
+        "pages": [
+          "day-to-day/hazards/overview",
+          "day-to-day/hazards/logging-a-hazard",
+          "day-to-day/hazards/premises-checklist"
+        ]
+      },
+      {
+        "group": "Emergency & Drills",
+        "icon": "siren",
+        "pages": [
+          "day-to-day/emergency/overview",
+          "day-to-day/emergency/recording-a-drill",
+          "day-to-day/emergency/emergency-plan"
+        ]
+      },
+      {
+        "group": "Fire Evacuation",
+        "icon": "fire",
+        "pages": [
+          "day-to-day/fire-evacuation/overview",
+          "day-to-day/fire-evacuation/running-an-evacuation",
+          "day-to-day/fire-evacuation/evacuation-scheme"
+        ]
+      },
+      {
+        "group": "Maintenance Log",
+        "icon": "wrench",
+        "pages": [
+          "day-to-day/maintenance/overview",
+          "day-to-day/maintenance/logging-an-item"
+        ]
+      },
+      {
+        "group": "Compliance Register",
+        "icon": "clipboard-list",
+        "pages": [
+          "compliance/register/overview",
+          "compliance/register/licensing-criteria",
+          "compliance/register/evidence-linking"
+        ]
+      },
+      {
+        "group": "Centre Policies",
+        "icon": "book-open",
+        "pages": [
+          "compliance/policies/overview",
+          "compliance/policies/adopting-a-template",
+          "compliance/policies/creating-a-policy",
+          "compliance/policies/acknowledging-policies",
+          "compliance/policies/review-cycles"
+        ]
+      },
+      {
+        "group": "Evidence Vault",
+        "icon": "vault",
+        "pages": [
+          "compliance/evidence-vault/overview",
+          "compliance/evidence-vault/uploading-evidence"
+        ]
+      },
+      {
+        "group": "ERO Audit Prep",
+        "icon": "magnifying-glass-chart",
+        "pages": [
+          "compliance/ero/overview",
+          "compliance/ero/visit-mode",
+          "compliance/ero/evidence-pack"
+        ]
+      },
+      {
+        "group": "Vacancies",
+        "icon": "briefcase",
+        "pages": [
+          "hr/vacancies/overview",
+          "hr/vacancies/creating-a-vacancy"
+        ]
+      },
+      {
+        "group": "Candidates",
+        "icon": "user-clock",
+        "pages": [
+          "hr/candidates/overview",
+          "hr/candidates/application-form",
+          "hr/candidates/managing-candidates",
+          "hr/candidates/converting-to-staff"
+        ]
+      },
+      {
+        "group": "My Schedule",
+        "icon": "calendar",
+        "pages": [
+          "hr/scheduling/overview",
+          "hr/scheduling/availability-templates",
+          "hr/scheduling/booking-an-interview"
+        ]
+      },
+      {
+        "group": "Managing Staff",
+        "icon": "address-card",
+        "pages": [
+          "hr/staff/overview",
+          "hr/staff/adding-a-staff-member",
+          "hr/staff/staff-profile",
+          "hr/staff/employment-status",
+          "hr/staff/address-history",
+          "hr/staff/training",
+          "hr/staff/documents"
+        ]
+      },
+      {
+        "group": "Staff Compliance",
+        "icon": "shield-check",
+        "pages": [
+          "hr/staff/compliance/police-vetting",
+          "hr/staff/compliance/teacher-registration",
+          "hr/staff/compliance/visa-work-rights",
+          "hr/staff/compliance/exemptions"
+        ]
+      },
+      {
+        "group": "Qualifications",
+        "icon": "graduation-cap",
+        "pages": [
+          "hr/staff/qualifications/first-aid",
+          "hr/staff/qualifications/other-qualifications"
+        ]
+      },
+      {
+        "group": "Pay Parity",
+        "icon": "scale-balanced",
+        "pages": [
+          "hr/pay-parity/overview",
+          "hr/pay-parity/recording-a-review",
+          "hr/pay-parity/qualification-groups",
+          "hr/pay-parity/rs7-attestation",
+          "hr/pay-parity/exclusions"
+        ]
+      },
+      {
+        "group": "Interview & Induction",
+        "icon": "chalkboard-user",
+        "pages": [
+          "hr/interview-and-induction/overview",
+          "hr/interview-and-induction/question-library",
+          "hr/interview-and-induction/induction-training"
+        ]
+      },
+      {
+        "group": "Settings",
+        "icon": "sliders",
+        "pages": [
+          "settings/overview",
+          "settings/business-details",
+          "settings/managing-centres",
+          "settings/branding"
+        ]
+      },
+      {
+        "group": "Users & Permissions",
+        "icon": "lock",
+        "pages": [
+          "settings/users-and-permissions/roles",
+          "settings/users-and-permissions/inviting-users",
+          "settings/users-and-permissions/revoking-access"
+        ]
+      }
+    ]
+  }
+}
