@@ -39,6 +39,12 @@
       "website": "https://childcarecompliance.co.nz"
     }
   },
+"banner": {
+  "content": "Welcome to the Childcare Compliance NZ docs. To open the app, [click here](https://app.childcarecompliance.co.nz).",
+  "dismissible": true
+},
+
+  
   "navigation": {
     "tabs": [
       {
