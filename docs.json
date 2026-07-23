@@ -56,7 +56,8 @@
             "pages": [
               "getting-started/introduction",
               "getting-started/what-is-ccnz",
-              "getting-started/how-it-works"
+              "getting-started/how-it-works",
+              "getting-started/setup-wizard"
             ]
           }
         ]
