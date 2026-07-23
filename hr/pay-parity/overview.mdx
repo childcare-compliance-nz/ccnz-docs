@@ -1,6 +1,37 @@
 ---
-title: "Coming Soon"
-description: "This page is coming soon."
+title: "Overview"
+description: "How the Pay Parity module works — the register, compliance status, and RS7 attestation."
 ---
 
-This page is coming soon.
+The Pay Parity module helps your centre manage compliance with the NZ Ministry of Education's ECE pay parity scheme. If your centre has opted in to pay parity, the module calculates the minimum pay step for each certificated teacher, tracks whether they're being paid at or above that step, and records your RS7 attestations three times a year.
+
+## What pay parity means for your centre
+
+The pay parity scheme sets minimum salary levels for certificated ECE teachers, based on a salary scale your centre attests to. There are four scales — Base, Parity, Extended Parity, and Full Parity — each with different step structures and rates. Your centre commits to one scale per RS7 period, and every pay parity educator must be paid at or above their calculated minimum step on that scale.
+
+The minimum step for each teacher is calculated from three factors: their qualification group (P1–P5), their NZ recognised ECE service hours, and other relevant experience hours.
+
+## The pay parity register
+
+The Pay Parity register at `/pay-parity` shows your centre's compliance position at a glance. For each pay parity educator it shows their qualification group, current step, minimum required step, hourly rate, and compliance status.
+
+Compliance statuses:
+
+| Status | Meaning |
+|--------|---------|
+| 🟢 **Compliant** | Staff member is paid at or above their minimum step |
+| 🟡 **Review Due** | Pay parity details haven't been reviewed recently |
+| 🟡 **Step Due** | Service hours have accumulated enough to move to a higher step |
+| 🔴 **Shortfall** | Staff member is paid below their minimum step |
+
+## Centre opt-in
+
+Pay parity is configured per centre in your centre settings. If your centre participates in the scheme, it's set to opted-in with a salary scale and an effective-from date. Centres on a moratorium — a temporary pause while transitioning between scales — show a warning banner on the register, though the moratorium doesn't prevent attestation.
+
+## Dashboard alerts
+
+The dashboard shows a Pay Parity alert card summarising your compliance position. Shortfalls appear first (red), followed by overdue reviews (amber), due-soon (amber), and compliant staff (green). The sidebar also shows a badge count of staff needing attention.
+
+<Note>
+  All pay parity data — rates, steps, review history — is only visible to admins and users with HR access. Staff members cannot see pay data.
+</Note>
