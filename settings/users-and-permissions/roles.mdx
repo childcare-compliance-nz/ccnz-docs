@@ -1,6 +1,76 @@
 ---
-title: "Coming Soon"
-description: "This page is coming soon."
+title: "Roles"
+description: "How user roles and permissions work in the platform."
 ---
 
-This page is coming soon.
+The platform has two roles — **Admin** and **Staff** — plus two additional permission flags that grant access to specific areas. Understanding how these work helps you give each person exactly the access they need.
+
+## Admin
+
+Admins have full access to everything in the platform — all centres, all enabled modules, all settings, and all HR and compliance data. There's no configuration required for admin access; it's automatic.
+
+Admins can:
+
+- Access all centres and modules
+- Manage staff records and invitations
+- View and manage all HR data including pay parity
+- Manage compliance, policies, and evidence
+- Change business settings and branding
+- Invite new users and manage permissions
+
+Use the Admin role for centre managers and owners who need to oversee everything.
+
+## Staff
+
+Staff users start with no access until an admin grants it. This allows you to control exactly what each person can see and do in the platform.
+
+Access for Staff users is configured in three layers:
+
+**Centre access** — which centres they can see. A staff member at a single-centre operation typically has access to one centre; multi-centre staff may have access to multiple.
+
+**Module access** — per centre, which modules they can use. For example, a staff member might have access to the Emergency & Drills module but not to Compliance Monitoring.
+
+**Feature permissions** — per module per centre: Full Access, Read Only, or No Access. This allows fine-grained control within a module — for example, a staff member might be able to view the hazard register but not add or edit records.
+
+Staff users can always access:
+- Their own training modules and induction
+- Policy acknowledgements assigned to them
+
+## HR access
+
+The **HR Access** permission flag grants a Staff user access to the HR module — candidates, vacancies, staff records, scheduling, and pay parity data. It's separate from the module access system and is toggled on a user's profile.
+
+Admins automatically have HR access. For Staff users, it must be explicitly granted.
+
+## Compliance access
+
+The **Compliance Access** permission flag grants a Staff user access to compliance management areas — the Compliance Register, ERO Audit Prep, and the ability to manage incidents, hazards, and other compliance workflows.
+
+Admins automatically have compliance access. For Staff users, it must be explicitly granted.
+
+## Setting permissions for a Staff user
+
+From **Settings → Users & Permissions**, open the user's record. You'll see:
+
+- **Centre Access** — checkboxes for each centre
+- **Module Access** — per centre, checkboxes for each enabled module
+- **Feature Permissions** — per module per centre, dropdowns for Full Access / Read Only / No Access
+- **HR Access** — a toggle
+- **Compliance Access** — a toggle
+
+Changes take effect immediately. You'll be asked to confirm before removing access that a user already has.
+
+## Changing a user's role
+
+To change a user from Staff to Admin or vice versa, contact the CCNZ team. Role changes at the Admin level are managed by the platform team rather than within the settings UI.
+
+## Summary
+
+| | Admin | Staff |
+|---|---|---|
+| All centres and modules | ✅ Automatic | ❌ Requires explicit grant |
+| Business settings | ✅ | ❌ |
+| HR module | ✅ Automatic | Toggle on/off |
+| Compliance management | ✅ Automatic | Toggle on/off |
+| Own training and induction | ✅ | ✅ |
+| Policy acknowledgements | ✅ | ✅ |
